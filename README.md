@@ -1,3 +1,18 @@
-# hello-world
-hello
-Hi, I am Ruttala Hemanth and you can call me Hemanth.
+package com. hello;
+
+public class HelloWorld {
+
+	public void nonStaticTest() {
+		System.out.println("Non static method");
+	}
+	public static void staticTest() {
+		System.out.println("ststic method");
+	}
+	public static void main(String[]args) {
+		HelloWorld helloWorldObject= new HelloWorld();
+		System.out.println("Hello world!!!");
+		helloWorldObject.nonStaticTest();
+		staticTest();
+		
+	}
+	}
